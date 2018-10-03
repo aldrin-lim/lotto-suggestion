@@ -11,7 +11,7 @@ class App extends Component {
       <Row>
         <Col xs={{size: "10", offset: "1"}} className="mb-3">
           <h2  className="mt-4 mb-4 app-title"> 🎟️ Lotto Suggestions 🎟️  </h2>
-          <p id="desc">Having hard time picking numbers? Try this numbers 🔮</p>
+          <p id="desc">Having a hard time picking numbers? Try this 🔮</p>
           <span id="note">  EHEM. BALATO PAG NANALO (*cough*) 😀💰  </span>
         </Col>
         <Col  xs={{size: "10", offset: "1"}}>
