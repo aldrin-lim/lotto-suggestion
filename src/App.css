@@ -8,13 +8,12 @@ body {
   width: 100%;
   color: #000;
 }
+#github {
+  color: #333
+}
 #note {
   font-size: .7em;
 }
-/* #numbers {
-  color: #555;
-  font-size: 10vw;
-} */
 
 @media only screen and (max-width: 600px) {
   #numbers {

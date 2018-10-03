@@ -15,15 +15,10 @@ class App extends Component {
           <span id="note">  EHEM. BALATO PAG NANALO (*cough*) 😀💰  </span>
         </Col>
         <Col  xs={{size: "10", offset: "1"}}>
-        {/* <Col xs={12}>
-          <span> Ultra Lotto 6/58 </span>
-          <h1 id="numbers">51 23 12 02 03 01</h1>
-          <Button color="primary">Refresh Numbers</Button>
-        </Col> */}
         { this.types.map((item ,i) => <SuggestionBox key={i} {...item} />) }
         </Col>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p id="me"> Made by<a href="https://www.facebook.com/crassus81" target="_blank">  Aldrin Lim 👨‍🔧 </a></p>
+        <p id="me"> Made by<a href="https://www.facebook.com/crassus81" target="_blank">  Aldrin Lim 👨‍🔧 </a> <br/> <a id="github" href="https://github.com/superaldrin/lotto-suggestion" target="_blank">  Github </a></p>
+        
       </Row>
     );
   }
