@@ -1,0 +1,42 @@
+{
+  "name": "lotto-suggestions",
+  "version": "0.1.0",
+  "description": "This suggests random numbers for lotto. Number are randomly generated. Use at your own risk.",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.3",
+    "reactstrap": "^6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superaldrin/lotto-suggestion.git"
+  },
+  "keywords": [
+    "PCSO",
+    "Lotto",
+    "Suggestion"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "Aldrin Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superaldrin/lotto-suggestion/issues"
+  },
+  "homepage": "https://github.com/superaldrin/lotto-suggestion#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

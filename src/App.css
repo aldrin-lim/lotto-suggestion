@@ -1,0 +1,52 @@
+body {
+  font-family: 'K2D', sans-serif;
+  text-align: center;
+}
+#me {
+  font-size: 10px;
+  display: inline-block;
+  width: 100%;
+  color: #000;
+}
+#note {
+  font-size: .7em;
+}
+/* #numbers {
+  color: #555;
+  font-size: 10vw;
+} */
+
+@media only screen and (max-width: 600px) {
+  #numbers {
+    font-size: 1.8em;
+  }
+  #refresh {
+    font-size: .8em !important
+  }
+  #icon{
+    width: .8em !important;
+  }
+  .app-title {
+    font-size: 1.8rem;
+  } 
+}
+@media only screen and (max-width: 350px) {
+  #numbers {
+    font-size: 1.6em;
+  }
+  #refresh {
+    font-size: .7em !important
+  }
+  #icon{
+    width: .7em !important;
+  }
+  .app-title {
+    font-size: 1.3rem;
+  } 
+  #desc {
+    font-size: 1rem;
+  }
+  #note {
+    font-size: .7em;
+  }
+}
