@@ -9,6 +9,10 @@
     "react-scripts": "2.0.3",
     "reactstrap": "^6.4.0"
   },
+  "engines": {
+    "npm": "5.7.1",
+    "node": "9.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superaldrin/lotto-suggestion.git"
@@ -32,6 +36,7 @@
   "bugs": {
     "url": "https://github.com/superaldrin/lotto-suggestion/issues"
   },
+  
   "homepage": "https://github.com/superaldrin/lotto-suggestion#readme",
   "browserslist": [
     ">0.2%",
